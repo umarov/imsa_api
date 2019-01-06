@@ -1,0 +1,20 @@
+{
+  "name": "imsa_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muzafar Umarov @umarov",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^1.13.3",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
